@@ -94,7 +94,7 @@
     </div>
 
     <!-- Top Menu -->
-    <div class="navbar navbar-fixed-top navbar-inverse navbar-faded navbar-transparent" role="navigation">
+    {# <div class="navbar navbar-fixed-top navbar-inverse navbar-faded navbar-transparent" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -117,14 +117,14 @@
           </ul>
         </div><!--/.nav-collapse -->
       </div>
-    </div>
+    </div> #}
 
     <!-- Welcome screen -->
     <div class="site-wrapper site-wrapper_welcome screen" id="welcome">
       <div class="site-wrapper__inner">
         <div class="cover-container">
           <h1 class="site-wrapper-welcome__title">
-            Welcome to <span class="global-text-color">{{ event.title }}</span>
+            {{ class }} <span class="global-text-color">{{ title }}</span>
           </h1>
           <p class="site-wrapper-welcome__summary">
             Creative one page responsive template designed to meet your needs. Built with Twitter Bootstrap, it combines all of its great features with our clean user-friendly layout.
