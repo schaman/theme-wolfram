@@ -1,1 +1,6 @@
-title: "My first template"
+title: My first template
+event:
+  title: Pool Party
+  location: my apartment
+  date: Today
+  time: 6pm
