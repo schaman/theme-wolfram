@@ -6,8 +6,8 @@ event:
   place: online
 
 menu:
-  about: О чем?
-  author: Кто ведет?
+  about: О чем
+  author: Кто ведет
   review: Отзывы
   sign: Записаться
 
