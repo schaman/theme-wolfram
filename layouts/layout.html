@@ -720,18 +720,22 @@
             <form role="form" class="contact__form">
               <div class="row form-group">
                 <div class="col-xs-6 col-md-4">
-                  <label for="email" class="sr-only">blablabla</label>
+                  <label for="email" class="sr-only">{{ sign.email }}</label>
                   <input type="email" class="form-control" id="email" placeholder="{{ sign.email }}" data-original-title="" title="">
                 </div>
                 <div class="col-xs-6 col-md-4">
                   <label for="name" class="sr-only">{{ sign.name }}</label>
                   <input type="text" class="form-control" id="name" placeholder="{{ sign.name }}" data-original-title="" title="">
                 </div>
+                <div class="col-xs-6 col-md-4">
+                  <label for="name" class="sr-only">{{ sign.phone }}</label>
+                  <input type="text" class="form-control" id="name" placeholder="{{ sign.phone }}" data-original-title="" title="">
+                </div>
               </div>
-              <div class="form-group">
+              {#<div class="form-group">
                 <label for="message" class="sr-only">{{ sign.phone }}</label>
                 <textarea class="form-control" rows="3" id="message" placeholder="{{ sign.phone }}"></textarea>
-              </div>
+              </div>#}
               <button type="submit" class="btn btn-transparent">{{ button }}</button>
             </form>
           </div>
