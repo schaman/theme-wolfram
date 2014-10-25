@@ -4,6 +4,12 @@ event:
   date: "30 октября 2014, 20:00 мск"
   place: online
 
+menu:
+  about: О чем?
+  author: Кто ведет?
+  review: Отзывы
+  sign: Записаться
+
 headline:
   subtitle: Ответы на самые волнующие вопросы взаимоотношений
 
