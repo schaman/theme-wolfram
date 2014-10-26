@@ -35,13 +35,13 @@ $('.screen:first').waypoint(function() {
  */
 
 $(".backstretch-carousel").backstretch([
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_7.jpg",
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_1.jpg",
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_2.jpg",   
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_3.jpg",   
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_4.jpg",   
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_5.jpg", 
-  "/data/templates/prorealnost/template-wolfram/img/screen-bg_6.jpg" 
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_7.jpg",
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_1.jpg",
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_2.jpg",   
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_3.jpg",   
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_4.jpg",   
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_5.jpg", 
+  "/data/site/prolubov/theme/wolfram/assets/img/screen-bg_6.jpg" 
 ], {
     duration: 1000,
     fade: 1000
