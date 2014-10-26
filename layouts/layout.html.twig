@@ -706,7 +706,7 @@
             </div>
           </div>#}
           <div class="col-xs-12 col-sm-12">
-            <form role="form" class="contact__form" action="{{ product.id | order_product_url }}">
+            <form role="form" class="contact__form" action="{{ product.id | order_product_url }}" method="POST">
               <div class="row form-group">
                 <div class="col-xs-6 col-md-3">
                   <label for="name" class="sr-only">{{ sign.name }}</label>
