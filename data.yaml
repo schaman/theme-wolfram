@@ -1,2 +1,197 @@
 title: Wolfram - Customizable One Page Template
-sections: [intro, about, reviews, pricing, authors, features, form]
+intro:
+  title: Welcome to **Wolfram**
+  text: >
+    Creative one page responsive template designed to meet your needs.
+    Built with Twitter Bootstrap, it combines all of its great features
+    with our clean user-friendly layout.
+  button:
+    text: Find Out More
+
+about:
+  title: What's so **awesome** about it?
+  subtitle: >
+    Advanced customizability and attention to details will help you
+    get your own website up and running in no time.
+  items:
+    -
+      title: |
+        Fully 
+        Responsive
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
+    -
+      title: |
+        Built 
+        with LESS
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
+    -
+      title: |
+        Based on 
+        Bootstrap 3.2
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
+
+reviews:
+  title: A picture paints a **thousand** words
+  subtitle: >
+    Some of the works we can be proud of. Feel free to contact us if you like
+    what you see.
+  items:
+    -
+      picture: asset/img/portfolio-screenshot_1.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    -
+      picture: asset/img/portfolio-screenshot_2.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    -
+      picture: asset/img/portfolio-screenshot_3.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+pricing:
+  title: That's about **6 cups** of coffee
+  subtitle: >
+    Three pricing plans to fit a project of any size.
+    Painless refund guaranteed.
+  items:
+    -
+      price: $10
+      title: |
+        Single
+        Application
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
+      button:
+        text: Purchase now
+      features:
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
+    -
+      price: $50
+      title: |
+        Multiple
+        Applications
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
+      button:
+        text: Purchase now
+      features:
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
+    -
+      price: $100
+      title: |
+        Extended
+        License
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
+      button:
+        text: Purchase now
+      features:
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
+
+authors:
+  title: They've made this possible
+  subtitle: >
+    A team of hard-working enthusiastic people who helped this product come to life.
+  items:
+    -
+      name: John Doe
+      title: Project Manager
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        text: Contact Me
+    -
+      name: Judy Doe
+      title: iOS Developer
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        text: Contact Me
+    -
+      name: Richard Roe
+      title: Android Developer
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        text: Contact Me
+
+features:
+  title: Key Product Features
+  subtitle: >
+    Even more reasons to purchase this template. More to come with a future update.
+  items:
+    -
+      title: Six color options
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Four navbar types    
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Two menu types
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Three Background patterns
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Built with LESS
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Free future updates
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+
+form:
+  title: Feel free to **contact us**
+  subtitle: >
+    Do not hesitate to drop us a couple of lines. 24/7 support guaranteed.
+  text: |
+    **Phone/Fax:**
+    +123 456 789 (add. 123)
+    **Email:**
+    lorem@ipsum.com
+    admin@ipsum.com
