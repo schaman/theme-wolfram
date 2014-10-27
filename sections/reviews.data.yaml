@@ -1,0 +1,17 @@
+title: A picture paints a **thousand** words
+subtitle: >
+  Some of the works we can be proud of. Feel free to contact us if you like
+  what you see.
+items:
+  -
+    picture: asset/img/portfolio-screenshot_1.jpg
+    title: Project Title
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  -
+    picture: asset/img/portfolio-screenshot_2.jpg
+    title: Project Title
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  -
+    picture: asset/img/portfolio-screenshot_3.jpg
+    title: Project Title
+    text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

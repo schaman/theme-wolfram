@@ -1,0 +1,29 @@
+title: What's so **awesome** about it?
+subtitle: >
+  Advanced customizability and attention to details will help you
+  get your own website up and running in no time.
+items:
+  -
+    title: |
+      Fully 
+      Responsive
+    text: >
+      Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+      Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+      rhoncus tortor, sit amet egestas dolor pharetra at.
+  -
+    title: |
+      Built 
+      with LESS
+    text: >
+      Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+      Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+      rhoncus tortor, sit amet egestas dolor pharetra at.
+  -
+    title: |
+      Based on 
+      Bootstrap 3.2
+    text: >
+      Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+      Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+      rhoncus tortor, sit amet egestas dolor pharetra at.

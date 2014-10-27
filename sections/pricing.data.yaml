@@ -1,0 +1,50 @@
+title: That's about **6 cups** of coffee
+subtitle: >
+  Three pricing plans to fit a project of any size.
+  Painless refund guaranteed.
+items:
+  -
+    price: $10
+    title: |
+      Single
+      Application
+    subtitle: >
+      Pellentesque id commodo nisl, in semper orci.
+      Donec aliquet quam vel porttitor laoreet.
+    button:
+      text: Purchase now
+    features:
+      - Integer mollis libero et purus auctor gravida
+      - Nam in enim eu dui elementum dignissim at sed
+      - Vestibulum vitae orci id purus viverra accumsan
+      - Nunc sit amet orci sed elit mollis vulputate quis
+  -
+    price: $50
+    title: |
+      Multiple
+      Applications
+    subtitle: >
+      Pellentesque id commodo nisl, in semper orci.
+      Donec aliquet quam vel porttitor laoreet.
+    button:
+      text: Purchase now
+    features:
+      - Integer mollis libero et purus auctor gravida
+      - Nam in enim eu dui elementum dignissim at sed
+      - Vestibulum vitae orci id purus viverra accumsan
+      - Nunc sit amet orci sed elit mollis vulputate quis
+  -
+    price: $100
+    title: |
+      Extended
+      License
+    subtitle: >
+      Pellentesque id commodo nisl, in semper orci.
+      Donec aliquet quam vel porttitor laoreet.
+    button:
+      text: Purchase now
+    features:
+      - Integer mollis libero et purus auctor gravida
+      - Nam in enim eu dui elementum dignissim at sed
+      - Vestibulum vitae orci id purus viverra accumsan
+      - Nunc sit amet orci sed elit mollis vulputate quis
