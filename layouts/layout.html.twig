@@ -65,26 +65,15 @@
       </div>
     </div>
 
-    <!-- Welcome screen -->
-    <div class="site-wrapper site-wrapper_welcome screen" id="welcome">
-      <div class="site-wrapper__inner">
-        <div class="cover-container">
-          <h1 class="site-wrapper-welcome__title">
-            {{ intro.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
-          </h1>
-          <p class="site-wrapper-welcome__summary">
-            {{ intro.text }}
-          </p>
-          <div class="text-center">
-            <a class="btn btn-transparent site-wrapper-welcome__btn" href="#about">
-              {{ intro.button.text }}
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {% block body %}{% endblock %}
+    {% block body %}
+      webinar
+        -- about
+        features
+        reviews (projects)
+        authors (team)
+        -- pricing
+        contact
+    {% endblock %}
 
     <!-- JavaScript -->
     <script src="{{ 'js/jquery.backstretch.min.js' | asset_url }}"></script>

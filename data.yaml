@@ -9,7 +9,7 @@ intro:
     text: Find Out More
 
 about:
-  title: What's so <span class="global-text-color">awesome</span> about it?
+  title: What's so **awesome** about it?
   subtitle: >
     Advanced customizability and attention to details will help you
     get your own website up and running in no time.
@@ -39,8 +39,8 @@ about:
         Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
         rhoncus tortor, sit amet egestas dolor pharetra at.
 
-projects:
-  title: A picture paints a <span class="global-text-color">thousand</span> words
+reviews:
+  title: A picture paints a **thousand** words
   subtitle: >
     Some of the works we can be proud of. Feel free to contact us if you like
     what you see.
@@ -59,7 +59,7 @@ projects:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 pricing:
-  title: That's about <span class="global-text-color">6 cups</span> of coffee
+  title: That's about **6 cups** of coffee
   subtitle: >
     Three pricing plans to fit a project of any size.
     Painless refund guaranteed.
@@ -69,51 +69,48 @@ pricing:
       title: |
         Single
         Application
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
       button:
-        title: Purchase now
+        text: Purchase now
       features:
-        title: >
-          Pellentesque id commodo nisl, in semper orci.
-          Donec aliquet quam vel porttitor laoreet.
-        items:
-          - Integer mollis libero et purus auctor gravida
-          - Nam in enim eu dui elementum dignissim at sed
-          - Vestibulum vitae orci id purus viverra accumsan
-          - Nunc sit amet orci sed elit mollis vulputate quis
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
     -
       price: $50
       title: |
         Multiple
         Applications
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
       button:
-        title: Purchase now
+        text: Purchase now
       features:
-        title: >
-          Pellentesque id commodo nisl, in semper orci.
-          Donec aliquet quam vel porttitor laoreet.
-        items:
-          - Integer mollis libero et purus auctor gravida
-          - Nam in enim eu dui elementum dignissim at sed
-          - Vestibulum vitae orci id purus viverra accumsan
-          - Nunc sit amet orci sed elit mollis vulputate quis
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
     -
       price: $100
       title: |
         Extended
         License
+      subtitle: >
+        Pellentesque id commodo nisl, in semper orci.
+        Donec aliquet quam vel porttitor laoreet.
       button:
-        title: Purchase now
+        text: Purchase now
       features:
-        title: >
-          Pellentesque id commodo nisl, in semper orci.
-          Donec aliquet quam vel porttitor laoreet.
-        items:
-          - Integer mollis libero et purus auctor gravida
-          - Nam in enim eu dui elementum dignissim at sed
-          - Vestibulum vitae orci id purus viverra accumsan
-          - Nunc sit amet orci sed elit mollis vulputate quis
+        - Integer mollis libero et purus auctor gravida
+        - Nam in enim eu dui elementum dignissim at sed
+        - Vestibulum vitae orci id purus viverra accumsan
+        - Nunc sit amet orci sed elit mollis vulputate quis
 
-team:
+authors:
   title: They've made this possible
   subtitle: >
     A team of hard-working enthusiastic people who helped this product come to life.
@@ -126,7 +123,7 @@ team:
         scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
         Donec molestie odio sed leo interdum ultrices.
       button:
-        title: Contact Me
+        text: Contact Me
     -
       name: Judy Doe
       title: iOS Developer
@@ -135,7 +132,7 @@ team:
         scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
         Donec molestie odio sed leo interdum ultrices.
       button:
-        title: Contact Me
+        text: Contact Me
     -
       name: Richard Roe
       title: Android Developer
@@ -144,7 +141,7 @@ team:
         scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
         Donec molestie odio sed leo interdum ultrices.
       button:
-        title: Contact Me
+        text: Contact Me
 
 features:
   title: Key Product Features
@@ -188,8 +185,8 @@ features:
         scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
         Donec molestie odio sed leo interdum ultrices.
 
-contact:
-  title: Feel free to <span class="global-text-color">contact us</span>
+form:
+  title: Feel free to **contact us**
   subtitle: >
     Do not hesitate to drop us a couple of lines. 24/7 support guaranteed.
   text: |

@@ -3,22 +3,22 @@
   <div class="site-wrapper__inner">
     <div class="cover-container">
       <h2 class="title">
-        {{ projects.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+        {{ reviews.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
       </h2>
-      {% if projects.subtitle is defined %}
+      {% if reviews.subtitle is defined %}
         <p class="title__sub-text">
-          {{ projects.subtitle }}
+          {{ reviews.subtitle }}
         </p>
       {% endif %}
     </div>
     <div class="container">
       <div class="row">
-        {% for project in projects.items %}
+        {% for review in reviews.items %}
           <div class="col-sm-4 col-alt">
             <div class="portfolio__item">
-              <a href="{{ project.picture }}" data-lightbox="portfolio-item__img" data-title="{{ project.title }}">
+              <a href="{{ review.picture }}" data-lightbox="portfolio-item__img" data-title="{{ review.title }}">
                 <div class="portfolio-item__img">
-                  <img class="img-responsive" src="{{ project.picture }}" alt="...">
+                  <img class="img-responsive" src="{{ review.picture }}" alt="...">
                   <div class="portfolio-item-img__mask">
                     <div class="portfolio-mask__container">
                       <div class="portfolio-mask__inner">
@@ -26,10 +26,10 @@
                           <i class="fa fa-image fa-2x"></i>
                         </div>
                         <h4 class="portfolio-mask-inner__title animated fadeInUp">
-                          {{ project.title }}
+                          {{ review.title }}
                         </h4>
                         <p class="portfolio-mask-inner__summary animated fadeInDown">
-                          {{ project.text }}
+                          {{ review.text }}
                         </p>
                       </div>
                     </div>
