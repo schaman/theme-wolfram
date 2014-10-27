@@ -1,55 +1,200 @@
-company: ПроРеальность
-class: Бесплатный вебинар
-title: ПРО Любовь
-
-product:
-  id: 1
-
-event:
-  date: "30 октября 2014, 20:00 мск"
-  place: online
-
-menu:
-  about: О чем
-  author: Кто ведет
-  review: Отзывы
-  sign: Записаться
-
-headline:
-  subtitle: Ответы на самые волнующие вопросы взаимоотношений
-
+title: Wolfram - Customizable One Page Template
 intro:
-  title: Что будет на вебинаре?
-  content:
-    qwestion1: Любовь к себе
-    subqwestion1: Как обрести любовь к себе? И почему это так важно в построении отношений.
-    qwestion2: Привлекать и удерживать
-    subqwestion2: Как научиться привлекать и удерживать мужчин / женщин? Чтобы все вокруг восхищались тобой и хотели с тобой познакомиться.
-    qwestion3: Улучшить отношения
-    subqwestion3: "Как изменить уже сложившиеся отношения в лучшую сторону? Что делать, когда кажется отношения уже не спасти"
-    qwestion4: Быть самым лучшим
-    subqwestion4: "Как стать для своего партнера самой лучшей / самым лучшим? Чтобы отношения были наполнены любовью, гармонией и взаимопониманием."
+  title: Welcome to **Wolfram**
+  text: >
+    Creative one page responsive template designed to meet your needs.
+    Built with Twitter Bootstrap, it combines all of its great features
+    with our clean user-friendly layout.
+  button:
+    text: Find Out More
 
-reviews:
-  title: Отзывы
-  subtitle: "Вот, что говорят наши счастливые выпускники"
-  name1: Заира Кузьмина
-  review1: "Я создала новые отношения с родителями и с сестрами. Я создаю отношения с прекрасным Мужчиной (да-да, именно с большой буквы). Тебе рекомендую, искренне, не думай, идти или нет на тренинг. Просто ИДИ "
-  name2: Наталья Лапшаева
-  review2: "Теперь я с полной уверенностью могу сказать, что счастлива на все 100 %. Безумно хочется делиться радостью и любовью с окружающими меня людьми. Это было действительно очень здорово и профессионально. Спасибо, Николай!"
-  name3: Алена Шатц
-  review3: "Человек, которого я люблю стал расти еще больше вместе со мной, любви просто вагон и маленькая тележка. Никаких тебе истерик и «ты виноват», полное понимание и ответственность за свое состояние."
+about:
+  title: What's so <span class="global-text-color">awesome</span> about it?
+  subtitle: >
+    Advanced customizability and attention to details will help you
+    get your own website up and running in no time.
+  items:
+    -
+      title: |
+        Fully 
+        Responsive
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
+    -
+      title: |
+        Built 
+        with LESS
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
+    -
+      title: |
+        Based on 
+        Bootstrap 3.2
+      text: >
+        Vivamus posuere ut est at gravida. Pellentesque non tempor mauris.
+        Aliquam pharetra velit in vestibulum sollicitudin. Nulla mattis
+        rhoncus tortor, sit amet egestas dolor pharetra at.
 
-authors:
-  title: Вебинар ведет
-  name: Николай Воробьёв
-  content: "Международный тренер и коуч с 12-летним опытом. Автор 4 книг и 15 тренингов. Ведущий и тренер в 4 телевизионных и радио шоу об отношениях и личной эффективности."
+projects:
+  title: A picture paints a <span class="global-text-color">thousand</span> words
+  subtitle: >
+    Some of the works we can be proud of. Feel free to contact us if you like
+    what you see.
+  items:
+    -
+      picture: asset/img/portfolio-screenshot_1.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    -
+      picture: asset/img/portfolio-screenshot_2.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    -
+      picture: asset/img/portfolio-screenshot_3.jpg
+      title: Project Title
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-button: Записаться
+pricing:
+  title: That's about <span class="global-text-color">6 cups</span> of coffee
+  subtitle: >
+    Three pricing plans to fit a project of any size.
+    Painless refund guaranteed.
+  items:
+    -
+      price: $10
+      title: |
+        Single
+        Application
+      button:
+        title: Purchase now
+      features:
+        title: >
+          Pellentesque id commodo nisl, in semper orci.
+          Donec aliquet quam vel porttitor laoreet.
+        items:
+          - Integer mollis libero et purus auctor gravida
+          - Nam in enim eu dui elementum dignissim at sed
+          - Vestibulum vitae orci id purus viverra accumsan
+          - Nunc sit amet orci sed elit mollis vulputate quis
+    -
+      price: $50
+      title: |
+        Multiple
+        Applications
+      button:
+        title: Purchase now
+      features:
+        title: >
+          Pellentesque id commodo nisl, in semper orci.
+          Donec aliquet quam vel porttitor laoreet.
+        items:
+          - Integer mollis libero et purus auctor gravida
+          - Nam in enim eu dui elementum dignissim at sed
+          - Vestibulum vitae orci id purus viverra accumsan
+          - Nunc sit amet orci sed elit mollis vulputate quis
+    -
+      price: $100
+      title: |
+        Extended
+        License
+      button:
+        title: Purchase now
+      features:
+        title: >
+          Pellentesque id commodo nisl, in semper orci.
+          Donec aliquet quam vel porttitor laoreet.
+        items:
+          - Integer mollis libero et purus auctor gravida
+          - Nam in enim eu dui elementum dignissim at sed
+          - Vestibulum vitae orci id purus viverra accumsan
+          - Nunc sit amet orci sed elit mollis vulputate quis
 
-slogan: Записывайся прямо сейчас!
+team:
+  title: They've made this possible
+  subtitle: >
+    A team of hard-working enthusiastic people who helped this product come to life.
+  items:
+    -
+      name: John Doe
+      title: Project Manager
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        title: Contact Me
+    -
+      name: Judy Doe
+      title: iOS Developer
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        title: Contact Me
+    -
+      name: Richard Roe
+      title: Android Developer
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+      button:
+        title: Contact Me
 
-sign: 
-  email: E-mail
-  name: Имя
-  phone: Телефон
+features:
+  title: Key Product Features
+  subtitle: >
+    Even more reasons to purchase this template. More to come with a future update.
+  items:
+    -
+      title: Six color options
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Four navbar types    
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Two menu types
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Three Background patterns
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Built with LESS
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+    -
+      title: Free future updates
+      text: >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+        scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+        Donec molestie odio sed leo interdum ultrices.
+
+contact:
+  title: Feel free to <span class="global-text-color">contact us</span>
+  subtitle: >
+    Do not hesitate to drop us a couple of lines. 24/7 support guaranteed.
+  text: |
+    **Phone/Fax:**
+    +123 456 789 (add. 123)
+    **Email:**
+    lorem@ipsum.com
+    admin@ipsum.com

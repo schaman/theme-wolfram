@@ -1,0 +1,32 @@
+<!-- Features screen -->
+<div class="site-wrapper site-wrapper_feedback screen" id="features">
+  <div class="site-wrapper__inner">
+    <div class="cover-container">
+      <h2 class="title">
+        {{ features.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+      </h2>
+      {% if features.subtitle is defined %}
+        <p class="title__sub-text">
+          {{ features.subtitle }}
+        </p>
+      {% endif %}
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for feature in feature.items %}
+          <div class="col-sm-6 col-md-5 col-md-offset-1">
+            <div class="features__item">
+              <h2 class="features-item__title">
+                <span class="global-text-color">{{ loop.index }}.</span> 
+                {{ feature.title }}
+              </h2>
+              <div class="features-item__summary">
+                {{ feature.text }}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

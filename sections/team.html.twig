@@ -1,0 +1,50 @@
+<!-- Team screen -->
+<div class="site-wrapper site-wrapper_team screen" id="team">
+  <div class="site-wrapper__inner">
+    <div class="cover-container">
+      <h2 class="title">
+        {{ team.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+      </h2>
+      {% if team.subtitle is defined %}
+        <p class="title__sub-text">
+          {{ team.subtitle }}
+        </p>
+      {% endif %}
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <!-- Carousel -->
+          <div id="team__carousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              {% for member in team.members %}
+                <div class="item">
+                  <div class="cover-container">
+                    <div class="team-member__icon">
+                      <i class="fa {{ member.icon }} fa-2x"></i>
+                    </div>
+                    <h2 class="team-member__title global-text-color">
+                      {{ member.name }}
+                    </h2>
+                    {% if member.title is defined %}
+                      <h2 class="team-member__title">
+                        {{ member.title }}
+                      </h2>
+                    {% endif %}
+                    <p class="team-member__summary g-line-height-lg">
+                      {{ member.text }}
+                    </p>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-transparent team-member__btn">{{ member.button.title }}</a>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

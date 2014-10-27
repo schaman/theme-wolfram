@@ -1,0 +1,35 @@
+<!-- About screen -->
+<div class="site-wrapper site-wrapper_about screen" id="about">
+  <div class="site-wrapper__inner">
+    <div class="cover-container">
+      <h2 class="title">
+        <span class="global-text-color">{{ about.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}</span>
+      </h2>
+      {% if about.subtitle is defined %}
+        <p class="title__sub-text">
+          {{ about.subtitle }}
+        </p>
+      {% endif %} 
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for item in about.items %}
+          <div class="col-sm-4">
+            <div class="about__item">
+              <div class="about-item__header">
+                <div class="about-item-header__icon">
+                  <i class="fa fa-arrows-alt"></i>
+                </div>
+                <h3 class="about-item-header__title">{{ item.title }}</h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="about-item__summary g-line-height-lg">
+                {{ item.text }}
+              </div>
+            </div> 
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

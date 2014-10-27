@@ -1,0 +1,45 @@
+<!-- Portfolio screen -->
+<div class="site-wrapper site-wrapper_portfolio screen" id="portfolio">
+  <div class="site-wrapper__inner">
+    <div class="cover-container">
+      <h2 class="title">
+        {{ projects.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+      </h2>
+      {% if projects.subtitle is defined %}
+        <p class="title__sub-text">
+          {{ projects.subtitle }}
+        </p>
+      {% endif %}
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for project in projects.items %}
+          <div class="col-sm-4 col-alt">
+            <div class="portfolio__item">
+              <a href="{{ project.picture }}" data-lightbox="portfolio-item__img" data-title="{{ project.title }}">
+                <div class="portfolio-item__img">
+                  <img class="img-responsive" src="{{ project.picture }}" alt="...">
+                  <div class="portfolio-item-img__mask">
+                    <div class="portfolio-mask__container">
+                      <div class="portfolio-mask__inner">
+                        <div class="portfolio-mask-inner__icon animated fadeIn">
+                          <i class="fa fa-image fa-2x"></i>
+                        </div>
+                        <h4 class="portfolio-mask-inner__title animated fadeInUp">
+                          {{ project.title }}
+                        </h4>
+                        <p class="portfolio-mask-inner__summary animated fadeInDown">
+                          {{ project.text }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

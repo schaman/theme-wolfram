@@ -1,0 +1,48 @@
+<!-- Pricing screen -->
+<div class="site-wrapper site-wrapper_pricing screen" id="pricing">
+  <div class="site-wrapper__inner">
+    <div class="cover-container">
+      <h2 class="title">
+        {{ pricing.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+      </h2>
+      {% if pricing.subtitle is defined %}
+        <p class="title__sub-text">
+          {{ pricing.subtitle }}
+        </p>
+      {% endif %}
+    </div>
+    <div class="container">
+      <div class="row">
+        {% for price in pricing.items %}
+          <div class="col-sm-4">
+            <div class="pricing__item">
+              <div class="pricing-item__header">
+                <div class="pricing-item-header__price">
+                  {{ price.price }}
+                </div>
+                <h3 class="pricing-item-header__title">
+                  {{ price.title }}
+                </h3>
+              </div>
+              <div class="pricing-item__body">
+                <p class="g-line-height-lg">
+                  {{ price.subtitle }}
+                <ul class="pricing-item-body__list fa-ul">
+                  {% for feature in price.features %}
+                    <li>
+                      <i class="fa-li fa fa-check"></i> 
+                      {{ feature }}
+                    </li>
+                  {% endfor %}
+                </ul>
+                <div class="btn-white-outline">
+                  <a class="btn btn-white" href="#">{{ price.button.title }}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
