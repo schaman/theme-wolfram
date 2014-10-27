@@ -1,0 +1,14 @@
+type: object
+title: Intro
+properties:
+  title:  { type: string, title: Title }
+  text:   { type: string, title: Text }
+  button:
+    type: object
+    title: Button
+    properties:
+      text:   { type: string, title: Text }
+    required: [text]
+    additionalProperties: false
+required: [title, text, button]
+additionalProperties: false

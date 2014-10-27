@@ -1,0 +1,27 @@
+type: object
+title: Pricing
+properties:
+  title:    { type: string, title: Title }
+  subtitle: { type: string, title: Subtitle }
+  items:
+    type: array
+    title: Items
+    items:
+      type: object
+      title: Price
+      properties:
+        price:    { type: string, title: Price }
+        title:    { type: string, title: Title }
+        subtitle: { type: string, title: Subtitle }
+        features: { type: array, title: Features, items: { type: string, title: Items } }
+        button:
+          type: object
+          title: Button
+          properties:
+            text:   { type: string, title: Text }
+          required: [text]
+          additionalProperties: false
+      required: [price, title, features, button]
+      additionalProperties: false
+required: [title, items]
+additionalProperties: false

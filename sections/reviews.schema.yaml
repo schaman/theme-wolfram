@@ -1,0 +1,19 @@
+type: object
+title: Reviews
+properties:
+  title:    { type: string, title: Title }
+  subtitle: { type: string, title: Subtitle }
+  items:
+    type: array
+    title: Items
+    items:
+      type: object
+      title: Review
+      properties:
+        picture: { type: string, title: Picture, format: uri }
+        title:  { type: string, title: Title }
+        text:   { type: string, title: Text }
+      required: [picture, title, text]
+      additionalProperties: false
+required: [title, items]
+additionalProperties: false

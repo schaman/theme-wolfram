@@ -1,0 +1,8 @@
+type: object
+title: Form
+properties:
+  title:    { type: string, title: Title }
+  subtitle: { type: string, title: Subtitle }
+  text:     { type: string, title: Text }
+required: [title, text]
+additionalProperties: false

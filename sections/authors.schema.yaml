@@ -1,0 +1,26 @@
+type: object
+title: Authors
+properties:
+  title:    { type: string, title: Title }
+  subtitle: { type: string, title: Subtitle }
+  items:
+    type: array
+    title: Items
+    items:
+      type: object
+      title: Author
+      properties:
+        name:  { type: string, title: Name }
+        title:  { type: string, title: Title }
+        text:   { type: string, title: Text }
+        button:
+          type: object
+          title: Button
+          properties:
+            text:   { type: string, title: Text }
+          required: [text]
+          additionalProperties: false
+      required: [name, title, text, button]
+      additionalProperties: false
+required: [title, items]
+additionalProperties: false

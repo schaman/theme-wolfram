@@ -1,0 +1,18 @@
+type: object
+title: Features
+properties:
+  title:    { type: string, title: Title }
+  subtitle: { type: string, title: Subtitle }
+  items:
+    type: array
+    title: Items
+    items:
+      type: object
+      title: Feature
+      properties:
+        title:  { type: string, title: Title }
+        text:   { type: string, title: Text }
+      required: [title, text]
+      additionalProperties: false
+required: [title, items]
+additionalProperties: false
