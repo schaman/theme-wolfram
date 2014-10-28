@@ -1,0 +1,31 @@
+title: They've made this possible
+subtitle: >
+  A team of hard-working enthusiastic people who helped this product come to life.
+items:
+  -
+    name: John Doe
+    title: Project Manager
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+      scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+      Donec molestie odio sed leo interdum ultrices.
+    button:
+      text: Contact Me
+  -
+    name: Judy Doe
+    title: iOS Developer
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+      scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+      Donec molestie odio sed leo interdum ultrices.
+    button:
+      text: Contact Me
+  -
+    name: Richard Roe
+    title: Android Developer
+    text: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+      scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
+      Donec molestie odio sed leo interdum ultrices.
+    button:
+      text: Contact Me
