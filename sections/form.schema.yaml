@@ -2,7 +2,7 @@ type: object
 title: Form
 properties:
   title:    { type: string, title: Title }
-  subtitle: { type: string, title: Subtitle }
-  text:     { type: string, title: Text }
+  subtitle: { type: string, title: Subtitle, format: textarea }
+  text:     { type: string, title: Text, format: textarea }
 required: [title, text]
 additionalProperties: false

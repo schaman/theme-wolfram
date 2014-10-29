@@ -1,0 +1,8 @@
+{% extends 'layouts/layout.html.twig' %}
+{% block body %}
+{% include 'sections/intro.html.twig' %}
+{% if about    is defined %}{% include 'sections/about.html.twig'    %}{% endif %}
+{% if features is defined %}{% include 'sections/features.html.twig' %}{% endif %}
+{% if authors  is defined %}{% include 'sections/authors.html.twig'  %}{% endif %}
+{% include 'sections/form.html.twig'  %}
+{% endblock %}

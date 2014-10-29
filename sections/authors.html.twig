@@ -5,7 +5,7 @@
       <h2 class="title">
         {{ authors.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
       </h2>
-      {% if team.subtitle is defined %}
+      {% if authors.subtitle is defined %}
         <p class="title__sub-text">
           {{ authors.subtitle }}
         </p>
@@ -19,15 +19,15 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               {% for author in authors.items %}
-                <div class="item">
+                <div class="item {{ loop.first ? 'active' }}">
                   <div class="cover-container">
                     <div class="team-member__icon">
-                      <i class="fa {{ author.icon }} fa-2x"></i>
+                      <i class="fa fa-male fa-2x"></i>
                     </div>
                     <h2 class="team-member__title global-text-color">
                       {{ author.name }}
                     </h2>
-                    {% if member.title is defined %}
+                    {% if author.title is defined %}
                       <h2 class="team-member__title">
                         {{ author.title }}
                       </h2>
@@ -36,7 +36,7 @@
                       {{ author.text }}
                     </p>
                     <div class="text-center">
-                      <a href="#" class="btn btn-transparent team-member__btn">{{ author.button.text }}</a>
+                      <a href="#" class="btn btn-transparent team-member__btn">{{ author.buttontext }}</a>
                     </div>
                   </div>
                 </div>

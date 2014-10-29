@@ -11,8 +11,7 @@ items:
     subtitle: >
       Pellentesque id commodo nisl, in semper orci.
       Donec aliquet quam vel porttitor laoreet.
-    button:
-      text: Purchase now
+    buttontext: Purchase now
     features:
       - Integer mollis libero et purus auctor gravida
       - Nam in enim eu dui elementum dignissim at sed
@@ -26,8 +25,7 @@ items:
     subtitle: >
       Pellentesque id commodo nisl, in semper orci.
       Donec aliquet quam vel porttitor laoreet.
-    button:
-      text: Purchase now
+    buttontext: Purchase now
     features:
       - Integer mollis libero et purus auctor gravida
       - Nam in enim eu dui elementum dignissim at sed
@@ -41,8 +39,7 @@ items:
     subtitle: >
       Pellentesque id commodo nisl, in semper orci.
       Donec aliquet quam vel porttitor laoreet.
-    button:
-      text: Purchase now
+    buttontext: Purchase now
     features:
       - Integer mollis libero et purus auctor gravida
       - Nam in enim eu dui elementum dignissim at sed

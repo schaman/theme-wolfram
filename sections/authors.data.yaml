@@ -9,8 +9,7 @@ items:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
       scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
       Donec molestie odio sed leo interdum ultrices.
-    button:
-      text: Contact Me
+    buttontext: Contact Me
   -
     name: Judy Doe
     title: iOS Developer
@@ -18,8 +17,7 @@ items:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
       scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
       Donec molestie odio sed leo interdum ultrices.
-    button:
-      text: Contact Me
+    buttontext: Contact Me
   -
     name: Richard Roe
     title: Android Developer
@@ -27,5 +25,4 @@ items:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
       scelerisque diam, ut pellentesque leo. Morbi lacinia ut nibh eget euismod.
       Donec molestie odio sed leo interdum ultrices.
-    button:
-      text: Contact Me
+    buttontext: Contact Me

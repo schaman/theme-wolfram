@@ -2,7 +2,7 @@ type: object
 title: Authors
 properties:
   title:    { type: string, title: Title }
-  subtitle: { type: string, title: Subtitle }
+  subtitle: { type: string, title: Subtitle, format: textarea }
   items:
     type: array
     title: Items
@@ -12,15 +12,9 @@ properties:
       properties:
         name:  { type: string, title: Name }
         title:  { type: string, title: Title }
-        text:   { type: string, title: Text }
-        button:
-          type: object
-          title: Button
-          properties:
-            text:   { type: string, title: Text }
-          required: [text]
-          additionalProperties: false
-      required: [name, title, text, button]
+        text:   { type: string, title: Text, format: textarea }
+        buttontext: { type: string, title: Button text, default: Contact me }
+      required: [name, title, text, buttontext]
       additionalProperties: false
 required: [title, items]
 additionalProperties: false

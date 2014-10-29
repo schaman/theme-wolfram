@@ -2,7 +2,7 @@ type: object
 title: Features
 properties:
   title:    { type: string, title: Title }
-  subtitle: { type: string, title: Subtitle }
+  subtitle: { type: string, title: Subtitle, format: textarea }
   items:
     type: array
     title: Items
@@ -11,7 +11,7 @@ properties:
       title: Feature
       properties:
         title:  { type: string, title: Title }
-        text:   { type: string, title: Text }
+        text:   { type: string, title: Text, format: textarea }
       required: [title, text]
       additionalProperties: false
 required: [title, items]

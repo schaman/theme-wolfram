@@ -2,7 +2,7 @@ type: object
 title: Pricing
 properties:
   title:    { type: string, title: Title }
-  subtitle: { type: string, title: Subtitle }
+  subtitle: { type: string, title: Subtitle, format: textarea }
   items:
     type: array
     title: Items
@@ -12,16 +12,10 @@ properties:
       properties:
         price:    { type: string, title: Price }
         title:    { type: string, title: Title }
-        subtitle: { type: string, title: Subtitle }
+        subtitle: { type: string, title: Subtitle, format: textarea }
         features: { type: array, title: Features, items: { type: string, title: Items } }
-        button:
-          type: object
-          title: Button
-          properties:
-            text:   { type: string, title: Text }
-          required: [text]
-          additionalProperties: false
-      required: [price, title, features, button]
+        buttontext: { type: string, title: Button text, default: Purchase now }
+      required: [price, title, features, buttontext]
       additionalProperties: false
 required: [title, items]
 additionalProperties: false

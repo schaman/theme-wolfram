@@ -3,14 +3,20 @@
   <div class="site-wrapper__inner">
     <div class="cover-container">
       <h1 class="site-wrapper-welcome__title">
-        {{ intro.title | markdown({ 'em': '<span class="global-text-color">%s</span>' }) | raw }}
+        <span class="global-text-color">{{ intro.title | markdown({ 'em': '</span>%s<span class="global-text-color">' }) | raw }}</span>
+        {% if event.date %}
+          <br/>
+          <span style="font-size:75%">
+          {{ event.date }} <span class="global-text-color">@</span> {{ event.time }}
+          </span>
+        {% endif %}
       </h1>
       <p class="site-wrapper-welcome__summary">
         {{ intro.text }}
       </p>
       <div class="text-center">
         <a class="btn btn-transparent site-wrapper-welcome__btn" href="#about">
-          {{ intro.button.text }}
+          {{ intro.buttontext }}
         </a>
       </div>
     </div>

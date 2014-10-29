@@ -3,5 +3,4 @@ text: >
   Creative one page responsive template designed to meet your needs.
   Built with Twitter Bootstrap, it combines all of its great features
   with our clean user-friendly layout.
-button:
-  text: Find Out More
+buttontext: Find Out More
